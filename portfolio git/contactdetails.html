@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('stars-in-the-night-sky.jpg');
+            background-size: cover;
+            animation: fadeIn 5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+        @keyframes move {
+            0% {transform: translateX(0);}
+            50% {transform: translateX(100%);}
+            100% {transform: translateX(-100%);}
+        }
+
+        @keyframes slide {
+            0% {transform: translateX(-100%);}
+            100% {transform: translateX(100%);}
+        }
+
+        h1, p {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .heading{
+            margin-right: 70%;
+            animation: move;
+        }
+
+        .welcome {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            animation: slide 5s linear 1;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="cybertower.jpg" width="300px" align="right">
+    <div class="heading">
+        
+            <h1 style="font-style: italic; color: rgba(243, 50, 50, 0.944); ">Office Address:</h1>
+            <pre><p style="font-size: x-large; color: aquamarine;">
+           Hitech City, Hyderabad, Telangana.Cybertowers, 1st floor,
+           RukeVasta Designers and creators, Hitech City, Hyderabad, Telangana.
+            </pre>
+        </p>
+    </div>
+    <div class="welcome">
+        <p style="font-size: xx-large; color: violet;">You are always welcome feel free to visit!!</p>
+    </div>
+</body>
+</html>
